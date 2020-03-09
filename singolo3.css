@@ -171,20 +171,20 @@
   .contacts-info__address {
     padding: 0;
     margin: 0;
-    background: url("assets/location-icon.png") 3px 2px no-repeat;
+    background: url("assets/png-img/location-icon.png") 3px 2px no-repeat;
   }
   
   .contacts-info__phone {
     padding: 0;
     margin: 0;
-    background: url("assets/phone-icon.png") 1px 2px no-repeat;
+    background: url("assets/png-img/phone-icon.png") 1px 2px no-repeat;
     margin-top: 6px;
   }
   
   .contacts-info__email {
     padding: 0;
     margin: 0;
-    background: url("assets/mail-icon.png") 0 5px no-repeat;
+    background: url("assets/png-img/mail-icon.png") 0 5px no-repeat;
     margin-top: 7px;
   }
   
