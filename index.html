@@ -3,22 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Singolo</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="header-wrapper">
-        <nav class="nav-container">
+        <nav class="nav-container" id="nav-container">
           <h1 class="logo">
             <a href="#">SINGOLO<span>*</span> </a>
           </h1>
-          <ul class="main-nav">
-            <li><a href="#" class="options">HOME</a></li>
+          <ul class="main-nav" id="main-nav">
+            <li><a href="#header" class="options">HOME</a></li>
             <li class="dot">&#183;</li>
-            <li><a href="#" class="options">SERVICES</a></li>
+            <li><a href="#servises" class="options">SERVICES</a></li>
             <li class="dot">&#183;</li>
             <li><a href="#" class="options">PORTFOLIO</a></li>
             <li class="dot">&#183;</li>
@@ -29,7 +28,7 @@
         </nav>
       </div>
     </header>
-    <section class="mobile-section">
+    <section class="mobile-section" id="slider">
       <div class="mobile-wrapper">
         <div class="mobile">
           <img src="assets/iPhoneVertical.svg" alt="iPhone Vertical" />
@@ -49,7 +48,7 @@
         </div>
       </div>
     </section>
-    <section class="our-servises">
+    <section class="our-servises" id="servises">
       <div class="our-servises-wrapper">
        <div class="our-servises-container">
         <div class="service-heading">
@@ -281,7 +280,7 @@
   <footer class="footer">
     <div class="wrapper">
         <div class="wrapper-footer">
-            <p class="footer__text">&#169; Copyright 2013 &#183; by PSDchat.com</p>
+            <p class="footer__text">&#169; Copyright 2020 &#183; by Saksykov</p>
             <div class="footer-icons">
                 <img  class="footer__icon" src="assets/png-img/facebook.png" alt="facebook">
                 <img  class="footer__icon" src="assets/png-img/google+.png" alt="google">
@@ -291,5 +290,6 @@
         </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
